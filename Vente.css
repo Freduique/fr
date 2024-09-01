@@ -1,0 +1,468 @@
+/*La couleur du site*/
+body{
+    background-color: rgb(49, 214, 255);
+}
+/*Image de l'entete*/
+.Backgroun{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:cover;
+}
+.dvkoule{
+    height: 50px;
+    position: relative;
+}
+.dvbac{
+    height: 500px;
+}
+.dvantet{
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+/*Logo du Site*/
+.dvlogo{
+    position: absolute;
+    z-index: 100;
+    left: 10px;
+    top: 1px;
+}
+.dvantet1{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.dvantet2{
+    width: 115px;
+    height: 30px;
+    margin-right: 10px;
+}
+.dvantet3{
+    width: 250px;
+}
+.dvrecherche{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.inp1{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-style: none;
+    padding-left: 10px;
+}
+.inp1::placeholder{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imgrecherche{
+    width: 28px;
+}
+.imgrecherche:hover{
+    cursor: pointer;
+}
+.sp1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.sp1:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(99, 67, 0);
+    border-bottom: solid;
+}
+.imglogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.antet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+}
+.flxantet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    position: fixed;
+    z-index: 200;
+    top: -15px;
+    left: 0;
+    right: 0;
+}
+.flxantet{
+    height: 45px;
+    background-image: linear-gradient(to bottom right, rgb(49, 214, 255), rgb(0, 123, 206));
+}
+.deconect{
+    position: absolute;
+    right: 20px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 34, 34);
+    background-color: transparent;
+    border-style: none;
+}
+.deconect:hover{
+    cursor: pointer;
+}
+.dvtext{
+    position: relative;
+    width: 90%;
+    top: 100px;
+    left: 2%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.tx1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    margin-left: 30px;
+    text-align: center;
+}
+.sp2{
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(36, 255, 208);
+    text-shadow: 2px 2px rgb(26, 131, 108);
+}
+.tx2{
+    width: 550px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.897);
+    margin-left: 20px;
+}
+.dvproduit{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    margin-top: -10px;
+    background-color: rgb(0, 195, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(49, 214, 255), rgb(0, 123, 206));
+}
+.dvgros{
+    width: 100%;
+}
+.dvimgproduit{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.imgproduit{
+    width: 95%;
+    height: 95%;
+    margin-top: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.imgproduit:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+.dvnomproduit{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 50%;
+}
+.dvtypeproduit{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+.flxnom{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.dvprixproduit{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dvAdd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(255, 194, 27);
+    width: 90px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 28%;
+    padding-right: 28%;
+    border-radius: 5px;
+}
+.dvAdd:hover{
+    cursor: pointer;
+    background-color: rgb(241, 183, 23);
+    color: rgb(26, 26, 26);
+    box-shadow: 0.7px 0.7px 5px rgb(158, 158, 158);
+
+}
+.santre{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.dvtout{
+    background-color: white;
+    width: 232px;
+    border-radius: 5px;
+    height: 320px;
+    box-shadow: 1px 2px 8px rgb(78, 78, 78);
+    position: relative;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {top: 200px;}
+    to {top: 0px;}
+    }
+.dvtite{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+.sp3{
+    border-bottom: solid;
+    border-color:  rgb(255, 153, 36);
+    font-size: 30px;
+}
+.gridproduit{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    margin-left: 3%;
+}
+.dvtxanba{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(18, 87, 72);
+}
+.imglogofin{
+    width: 40px;
+    margin-right: 10px;
+}
+.dvtel{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dvapel{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+.dvadresse{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+.dvemail{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.dvtx{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.flxfin{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.dvfin{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
+.flxanba{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.dvanba{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.anba{
+    margin-right: 30px;
+}
+.sp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.sp:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(214, 125, 22);
+}
+.dvdenye{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width:1570px){
+    .gridproduit{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+        margin-left: 5px;
+    }
+    .Backgroun{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit:cover;
+    }
+    .dvtext{
+        margin-left: 13px;
+    }
+}
+@media (max-width:1280px){
+    .gridproduit{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        margin-left: 3px;
+    }
+    .deconect{
+        display: none;
+    }
+    .Backgroun{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit:cover;
+    }
+    .dvtext{
+        display: grid;
+        justify-content: center;
+        margin-left: 13px;
+    }
+    .dvtext{
+        display: block;
+    }
+    .tx2{
+        width: 400px;
+        text-align: justify;
+        margin-left: -450px;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+    }
+}
+@media (max-width:1000px){
+    .gridproduit{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        margin-left: 5px;
+    }
+    .dvtext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13px;
+    }
+    .tx2{
+        display: none;
+    }
+    .flxanba{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 5px;
+    }
+    .dvantet3{
+        width: 160px;
+    }
+    .Backgroun{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit:cover;
+    }
+}
+@media (max-width:740px){
+    .gridproduit{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        margin-left: 5px;
+    }
+    .dvtext{
+        margin-left: 45px;
+    }
+    .tx2{
+        display: none;
+    }
+    .flxanba{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 5px;
+    }
+    .dvfin{
+        margin-top: 30px;
+    }
+    .dvantet3,.dvantet,a{
+        display: none;
+    }
+    .dvrecherche{
+        background-color: transparent;
+        margin-top: 0px;
+    }
+    .imgrecherche{
+        width: 25px;
+    }
+    .dvantet2{
+        display: none;
+    }
+    .Backgroun{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit:cover;
+    }
+    .dvdenye{
+        width: 450px;
+    }
+}

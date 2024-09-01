@@ -1,0 +1,99 @@
+/*Modification du Corp*/
+body{
+    
+    background-color: (rgb(12, 163, 19));
+}
+.dvgros{
+    display: flex;
+    justify-content: center;
+}
+.dvmoyen{
+    width: 500px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 30px rgb(128, 128, 128);
+    opacity: 0.8;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    top: 25%;
+}
+.dvpetit{
+    padding: 10px 10px;
+    margin-top: 20px;
+    width: 95%;
+}
+.inp1{
+    width: 98%;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 10px;
+    border-width: 0px;
+    box-shadow: 1px 2px 5px rgb(158, 158, 158);
+    border-radius: 5px;
+    background-color: rgb(255, 233, 136);
+}
+.inp1::placeholder{
+    font-size: 17px;
+}
+.dvpetit2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+}
+.dvtx{
+    margin-top: 10px;
+}
+.sp1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sp2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(50, 179, 253) ;
+
+}
+.sp1:hover,.sp2:hover{
+    cursor: pointer;
+    color: rgb(14, 105, 180);
+}
+.dvtx2{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dvbtn1{
+    margin-top: 10px;
+    width: 95%;
+}
+.btn1{
+    width: 98%;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffc21b;
+    border-radius: 5px;
+    border-style: none;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: #e6b01c;
+    box-shadow: 1px 3px 5px rgb(158, 158, 158);
+}
+.dvtx2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+@media (max-width: 768px){
+
+}
+@media (max-width:600px){
+.dvmoyen{
+    width: 90%;
+}
+}
+
